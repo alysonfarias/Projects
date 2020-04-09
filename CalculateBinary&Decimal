@@ -1,0 +1,38 @@
+
+package calculate
+import java.util.Scanner;
+
+public class calculate {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int umdois;
+        System.out.println("Type 1 Binary to DECIMAL or 2 DECIMAL to Binary");
+        umdois = s.nextInt();
+        while (umdois != 1 && umdois != 2) {
+            System.out.println("Type 1 Binary to DECIMAL or 2 DECIMAL to Binary");
+            umdois = s.nextInt();
+        }
+        if (umdois == 1) {
+            System.out.println("Type your Binary Number");
+            String num = s.next();
+            int potencia = 0, decimal = 0;
+            for (int i = num.length() - 1; i >= 0; i--) {
+                decimal += Math.pow(2, potencia) * Character.getNumericValue(num.charAt(i));
+                potencia++;
+                System.out.println("Your Decimal number" + decimal);
+            }
+            System.out.println("Your Decimal number" + decimal);
+        } else {
+            System.out.println("Tyoe your Decimal Number");
+            int nume = s.nextInt();
+            String str = "";
+            while (nume != 0) {
+                int q = nume % 2;
+                str = q + str;
+                nume = nume / 2;
+            }
+            System.out.println(str);
+        }
+    }
+}
