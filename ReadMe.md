@@ -1,1 +1,1 @@
-# Projetos Simples feitos na Linguagem Java
+# Projetos simples feitos na Linguagem Java
