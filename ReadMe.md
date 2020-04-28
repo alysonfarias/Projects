@@ -8,3 +8,5 @@ _Inspired by_ [A Collection of application ideas which can be used to improve yo
 * [Calculadora com Interface Gráfica usando Swing](https://github.com/alysonfarias/Projects/tree/master/ProjetoCalcula)
 
 * [Jo Ken Po - [Game] usando Swing](https://github.com/alysonfarias/Projects/tree/master/Jokenpo)
+
+* [Calculadora Swing & Classe Math](https://github.com/alysonfarias/Projects/tree/master/Supercalculadora)
