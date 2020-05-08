@@ -9,4 +9,6 @@ _Inspired by_ [A Collection of application ideas which can be used to improve yo
 
 * [Jo Ken Po - [Game] usando Swing](https://github.com/alysonfarias/Projects/tree/master/Jokenpo)
 
+https://github.com/alysonfarias/Projects/tree/master/ColorAlterationRGBJavaScript
 * [Calculadora Swing & Classe Math](https://github.com/alysonfarias/Projects/tree/master/Supercalculadora)
+* [JavaScript Alteracao de Cor Red,Green,Blue](https://github.com/alysonfarias/Projects/tree/master/ColorAlterationRGBJavaScript)
