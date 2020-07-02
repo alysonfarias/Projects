@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: "SF Pro Text Regular", sans-serif;
+    background-color: aqua;
+}
+@font-face{
+    font-family: "SF Pro Text Regular";
+    src: url(./css/fonts/sf-pro-text-regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "SF Pro Text Bold";
+    src: url(./css/fonts/sf-pro-text-bold.ttf) format("truetype");
+}
+
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}

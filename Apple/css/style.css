@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: "SF Pro Text Regular", sans-serif;
+    color: #1d1d1d;
+
+}
+@font-face{
+    font-family: "SF Pro Text Regular";
+    src: url(./css/fonts/sf-pro-text-regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "SF Pro Text Bold";
+    src: url(./css/fonts/sf-pro-text-bold.ttf) format("truetype");
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h2 {
+
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: -1px;
+
+}
+
+.header {
+    background-color: #333333;
+    padding: 10.5px 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.header-container li a {
+    color: #d6d6d6;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: -0,01em;
+}
+.headsup {
+    text-align: center;
+    font-size: 14px;
+}
+.headsup a{
+    color: #086;
+    text-decoration: none;
+}
+.headsup a:hover{
+    text-decoration: underline;
+}
+.headsup p {
+    line-height: 1.47069;
+    padding:12px 0;
+}
+.iphone-se, 
+.iphone-11{
+    width: 90,5%;
+    height: 625px;
+    background: url(../img/Capture1.JPG);
+    color: #fff;
+    padding: 44px;
+    text-align: center;
+}
+.iphone-se .titulo{
+    margin-bottom: 6px;
+}
+.iphone-se .subtitulo{
+    margin-bottom: 12px;
+}
+.iphone-se a{
+color: #2997ff;
+}
+.iphone-se a:last-child{
+    margin-left: 26px;
+}
+.iphone-11 .titulo{
+    margin-bottom: 6px;
+}
+.iphone-11 .subtitulo{
+    margin-bottom: 12px;
+}
+.iphone-11 a{
+    color: #2997ff;
+    }
+.iphone-11 a:last-child{
+        margin-left: 26px;
+}
+.iphone-11{
+    background: url(../img/bg2.jpg);
+    color: black;
+}
